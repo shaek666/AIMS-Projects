@@ -1,0 +1,329 @@
+{
+  "risk_distribution": {
+    "Low": 27426,
+    "Moderate": 2492,
+    "High": 81
+  },
+  "high_risk_share": 0.0027000900030001,
+  "top_households": [
+    {
+      "household_id": 167363,
+      "household_size": 1,
+      "mean_risk": 47.0,
+      "max_risk": 47.0,
+      "high_risk_ratio": 1.0
+    },
+    {
+      "household_id": 169180,
+      "household_size": 1,
+      "mean_risk": 47.0,
+      "max_risk": 47.0,
+      "high_risk_ratio": 1.0
+    },
+    {
+      "household_id": 195158,
+      "household_size": 1,
+      "mean_risk": 45.33333333333333,
+      "max_risk": 45.33333333333333,
+      "high_risk_ratio": 1.0
+    },
+    {
+      "household_id": 228573,
+      "household_size": 1,
+      "mean_risk": 42.0,
+      "max_risk": 42.0,
+      "high_risk_ratio": 1.0
+    },
+    {
+      "household_id": 292923,
+      "household_size": 1,
+      "mean_risk": 40.33333333333333,
+      "max_risk": 40.33333333333333,
+      "high_risk_ratio": 1.0
+    },
+    {
+      "household_id": 224659,
+      "household_size": 1,
+      "mean_risk": 40.33333333333333,
+      "max_risk": 40.33333333333333,
+      "high_risk_ratio": 1.0
+    },
+    {
+      "household_id": 177040,
+      "household_size": 1,
+      "mean_risk": 40.33333333333333,
+      "max_risk": 40.33333333333333,
+      "high_risk_ratio": 1.0
+    },
+    {
+      "household_id": 191696,
+      "household_size": 2,
+      "mean_risk": 39.66666666666667,
+      "max_risk": 43.0,
+      "high_risk_ratio": 1.0
+    },
+    {
+      "household_id": 185907,
+      "household_size": 1,
+      "mean_risk": 38.666666666666664,
+      "max_risk": 38.666666666666664,
+      "high_risk_ratio": 1.0
+    },
+    {
+      "household_id": 337881,
+      "household_size": 1,
+      "mean_risk": 38.666666666666664,
+      "max_risk": 38.666666666666664,
+      "high_risk_ratio": 1.0
+    }
+  ],
+  "top_unions": [
+    {
+      "union_name": "BARUIPARA",
+      "population": 717,
+      "mean_risk": 15.487680148768014,
+      "high_risk_ratio": 0.011157601115760111,
+      "poverty_rate": 0.0
+    },
+    {
+      "union_name": "DHALAHAR",
+      "population": 106,
+      "mean_risk": 14.625786163522013,
+      "high_risk_ratio": 0.0,
+      "poverty_rate": 0.0
+    },
+    {
+      "union_name": "BILASHBARI",
+      "population": 1922,
+      "mean_risk": 14.202566770724939,
+      "high_risk_ratio": 0.006243496357960458,
+      "poverty_rate": 0.0
+    },
+    {
+      "union_name": "KOLA",
+      "population": 1678,
+      "mean_risk": 14.198251887167263,
+      "high_risk_ratio": 0.0011918951132300357,
+      "poverty_rate": 0.0
+    },
+    {
+      "union_name": "MAJITPUR",
+      "population": 353,
+      "mean_risk": 14.147308781869688,
+      "high_risk_ratio": 0.0113314447592068,
+      "poverty_rate": 0.0
+    },
+    {
+      "union_name": "UTHALI",
+      "population": 210,
+      "mean_risk": 13.83174603174603,
+      "high_risk_ratio": 0.0,
+      "poverty_rate": 0.0
+    },
+    {
+      "union_name": "ANDULBARIA",
+      "population": 2118,
+      "mean_risk": 13.6292099464904,
+      "high_risk_ratio": 0.00141643059490085,
+      "poverty_rate": 0.0
+    },
+    {
+      "union_name": "GABTALI SADAR",
+      "population": 935,
+      "mean_risk": 13.078787878787878,
+      "high_risk_ratio": 0.0074866310160427805,
+      "poverty_rate": 0.0
+    },
+    {
+      "union_name": "BARATARA",
+      "population": 3700,
+      "mean_risk": 12.917837837837839,
+      "high_risk_ratio": 0.0013513513513513514,
+      "poverty_rate": 0.0
+    },
+    {
+      "union_name": "SAGHATA",
+      "population": 1690,
+      "mean_risk": 12.777514792899408,
+      "high_risk_ratio": 0.001183431952662722,
+      "poverty_rate": 0.0
+    }
+  ],
+  "income_summary": [
+    {
+      "total_income": "Lower class",
+      "population": 19975,
+      "mean_risk": 13.652315394242803,
+      "high_risk_ratio": 0.00295369211514393
+    },
+    {
+      "total_income": "Lower-middle class",
+      "population": 3052,
+      "mean_risk": 12.036260375709917,
+      "high_risk_ratio": 0.001965923984272608
+    },
+    {
+      "total_income": "Middle class",
+      "population": 6262,
+      "mean_risk": 11.135047375705314,
+      "high_risk_ratio": 0.0019163206643244969
+    },
+    {
+      "total_income": "Upper class",
+      "population": 710,
+      "mean_risk": 9.985915492957746,
+      "high_risk_ratio": 0.005633802816901409
+    }
+  ],
+  "model_report": "              precision    recall  f1-score   support\n\nLow/Moderate      0.999     0.991     0.995      5984\n        High      0.203     0.812     0.325        16\n\n    accuracy                          0.991      6000\n   macro avg      0.601     0.902     0.660      6000\nweighted avg      0.997     0.991     0.994      6000\n",
+  "roc_auc": 0.9559345755347594,
+  "feature_importances": {
+    "chronic_score": 0.3039151565782276,
+    "chronic_condition_count": 0.20159944563271112,
+    "PULSE_RATE": 0.0642752640596573,
+    "SYSTOLIC": 0.06024140084146133,
+    "DIASTOLIC": 0.059954034305876494,
+    "age": 0.0551688803009921,
+    "union_name_GABTALI SADAR": 0.04828942972849186,
+    "disability_score": 0.026015511907561562,
+    "disabilities_name_0": 0.02244738332885114,
+    "bp_score": 0.01803787780176197,
+    "disabilities_name_physical": 0.017324220265542353,
+    "gender_Male": 0.01432170800368869,
+    "income_score": 0.013823799444936835,
+    "gender_Female": 0.013093258544058536,
+    "RESULT_STAT_BP_mild high": 0.012895903097138181,
+    "union_name_ELIOTGANJ  DAKKHIN": 0.012173740261711299,
+    "income_risk_score": 0.01082703798591059,
+    "RESULT_STAT_BP_normal": 0.008619915942411406,
+    "union_name_CHERAGPUR": 0.007985769216260994,
+    "total_income_Lower class": 0.00738721272340789
+  },
+  "cluster_summary": {
+    "Outlier": {
+      "population": 600,
+      "mean_risk": 27.600555555555555,
+      "bp_score": 2.1216666666666666,
+      "bmi_score": 0.475,
+      "sugar_score": 3.035,
+      "spo2_score": 0.23
+    },
+    "High-Risk Group": {
+      "population": 5111,
+      "mean_risk": 19.556120785234462,
+      "bp_score": 2.225004891410683,
+      "bmi_score": 0.014478575621209158,
+      "sugar_score": 0.38896497749951087,
+      "spo2_score": 0.01643513989434553
+    },
+    "Low-Risk Group": {
+      "population": 24288,
+      "mean_risk": 11.106129227053142,
+      "bp_score": 1.2557641633728591,
+      "bmi_score": 0.061305994729907776,
+      "sugar_score": 0.004693675889328063,
+      "spo2_score": 0.038866930171278
+    }
+  },
+  "correlation_matrix": {
+    "income_score": {
+      "income_score": 1.0,
+      "risk_score": -0.2511576389645852,
+      "bp_score": 0.0735961908431275,
+      "bmi_score": -0.020390660622168832,
+      "sugar_score": 0.03915962284990136,
+      "spo2_score": -0.029863954822835163,
+      "pulse_score": 0.03746208610184839,
+      "age": 0.029793125640565615,
+      "poverty_score": NaN
+    },
+    "risk_score": {
+      "income_score": -0.2511576389645852,
+      "risk_score": 1.0,
+      "bp_score": 0.6202876453244006,
+      "bmi_score": 0.09916438961899417,
+      "sugar_score": 0.23825571203482104,
+      "spo2_score": 0.10493729808837744,
+      "pulse_score": 0.38066195662801916,
+      "age": 0.5089153326746111,
+      "poverty_score": NaN
+    },
+    "bp_score": {
+      "income_score": 0.0735961908431275,
+      "risk_score": 0.6202876453244006,
+      "bp_score": 1.0,
+      "bmi_score": -0.06290552165935678,
+      "sugar_score": 0.0008108534835277687,
+      "spo2_score": -0.050827616869552276,
+      "pulse_score": 0.10438147946508264,
+      "age": 0.2134020438179735,
+      "poverty_score": NaN
+    },
+    "bmi_score": {
+      "income_score": -0.020390660622168832,
+      "risk_score": 0.09916438961899417,
+      "bp_score": -0.06290552165935678,
+      "bmi_score": 1.0,
+      "sugar_score": -0.0176071628432417,
+      "spo2_score": 0.005711700591939584,
+      "pulse_score": -0.01767544387601864,
+      "age": -0.05024734591867126,
+      "poverty_score": NaN
+    },
+    "sugar_score": {
+      "income_score": 0.03915962284990136,
+      "risk_score": 0.23825571203482104,
+      "bp_score": 0.0008108534835277687,
+      "bmi_score": -0.0176071628432417,
+      "sugar_score": 1.0,
+      "spo2_score": -0.003619524190675839,
+      "pulse_score": -0.000500276633856818,
+      "age": 0.1024615801578347,
+      "poverty_score": NaN
+    },
+    "spo2_score": {
+      "income_score": -0.029863954822835163,
+      "risk_score": 0.10493729808837744,
+      "bp_score": -0.050827616869552276,
+      "bmi_score": 0.005711700591939584,
+      "sugar_score": -0.003619524190675839,
+      "spo2_score": 1.0,
+      "pulse_score": -0.022319231708069605,
+      "age": -0.053005866778732626,
+      "poverty_score": NaN
+    },
+    "pulse_score": {
+      "income_score": 0.03746208610184839,
+      "risk_score": 0.38066195662801916,
+      "bp_score": 0.10438147946508264,
+      "bmi_score": -0.01767544387601864,
+      "sugar_score": -0.000500276633856818,
+      "spo2_score": -0.022319231708069605,
+      "pulse_score": 1.0,
+      "age": -0.02215723176252369,
+      "poverty_score": NaN
+    },
+    "age": {
+      "income_score": 0.029793125640565615,
+      "risk_score": 0.5089153326746111,
+      "bp_score": 0.2134020438179735,
+      "bmi_score": -0.05024734591867126,
+      "sugar_score": 0.1024615801578347,
+      "spo2_score": -0.053005866778732626,
+      "pulse_score": -0.02215723176252369,
+      "age": 1.0,
+      "poverty_score": NaN
+    },
+    "poverty_score": {
+      "income_score": NaN,
+      "risk_score": NaN,
+      "bp_score": NaN,
+      "bmi_score": NaN,
+      "sugar_score": NaN,
+      "spo2_score": NaN,
+      "pulse_score": NaN,
+      "age": NaN,
+      "poverty_score": NaN
+    }
+  }
+}
