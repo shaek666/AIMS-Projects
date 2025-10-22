@@ -1,0 +1,11 @@
+numpy
+pandas
+scipy
+scikit-learn
+plotly
+openpyxl
+fpdf2
+nbformat
+nbconvert
+ipykernel
+kaleido

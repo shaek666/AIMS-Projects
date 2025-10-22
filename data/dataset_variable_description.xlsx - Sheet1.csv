@@ -1,0 +1,34 @@
+Columns name,Description
+household_id,Unique Id indicating a single household
+total_income,Position in the income quartile of a household
+union_name,Name of the Union where the household situated
+user_id,Unique Id indicating a single user
+profile_name,Name of the user
+father_name,Father's name of the user
+mother_name,Mother's name of the user
+birthday,Birthday of the user
+age,Age of the user
+gender,Gender of the user
+is_poor,boolean status of the poverty
+is_freedom_fighter,boolean status of being freedom fighter
+had_stroke,boolean status of having stroke
+has_cardiovascular_disease,boolean status of having CVD
+disabilities_name,Disability's name of the user
+diabetic,Diabetic status of the user (boolean)
+profile_hypertensive,Hypertension status of the user (boolean)
+SYSTOLIC,Systolic measurement of the user
+DIASTOLIC,Diastolic measurement of the user
+RESULT_STAT_BP,Status of Blood pressure of the user
+HEIGHT,Height of the user
+WEIGHT,Weight of the user
+BMI,BMI of the user
+RESULT_STAT_BMI,Status of BMI of the user
+SUGAR,Sugar measurement of the user's blood
+TAG_NAME,The condition of user while measuring sugar
+RESULT_STAT_SUGAR,Status of the sugar level of the user
+PULSE_RATE,Pulse rate of the user
+RESULT_STAT_PR,Status of PR of the user
+SPO2,Oxygen saturation of the user
+RESULT_STAT_SPO2,Status of SPO2 of the user
+MUAC,MUAC measurement of the user
+RESULT_STAT_MUAC,Status of the user based on MUAC
